@@ -20,7 +20,7 @@ Unlike simple remote-controlled cars, this project focuses on **Low-Level Networ
 Development is divided into sequential engineering phases:
 
 ### Phase 1: Hardware & Low-Level Control
-- [ ] Component acquisition (Motors, Chassis, Drivers).
+- [X] Component acquisition (Motors, Chassis, Drivers).
 - [ ] Circuit Assembly.
 - [ ] Firmware implementation: Motor control logic (Forward, Backward, Stop).
 
