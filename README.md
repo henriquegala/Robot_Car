@@ -45,4 +45,4 @@ As part of my interest in **Cybersecurity**, future updates will focus on securi
 *   Analyzing network packets between the client and the rover.
 
 ---
-**Note:** This project is part of my personal portfolio as a Computer Engineering (LEI) student at the University of Aveiro (UA), Portugal. Active member of the NeRD core.
+**Note:** This project is part of my personal portfolio as a Computer Engineering (LECI) student at the University of Aveiro (UA), Portugal. Active member of the NeRD core.
