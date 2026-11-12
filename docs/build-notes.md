@@ -22,7 +22,7 @@ The finished rover is an ESP32-based robot that hosts its own web interface over
 
 **Result:** every component sits firmly and the rover runs reliably, including driving and obstacle avoidance. The fix is not elegant, but it is easy to undo and rework.
 
-**Root cause:** bad measurements of real parts might have been the cause for it.
+**Root cause:** (fill in, for example "dimensions taken from product photos or datasheets instead of measuring the real parts").
 
 ### Measurement log (optional, fill in if you still have the numbers)
 
@@ -50,7 +50,7 @@ These are general good practices rather than numbers measured on this build:
 - Written in C/C++ (Arduino IDE / PlatformIO) with **non-blocking** timing (`millis()`) instead of `delay()`, so the rover keeps responding to the web interface while the obstacle-avoidance logic runs.
 - The ESP32 runs in **access point mode** and serves the control page through an asynchronous HTTP server.
 - The web interface uses the Fetch API with touch and mouse "hold to move" events (momentary tank steering) and polls distance telemetry periodically.
-- The firmware was written with **AI assistance**, as described in the README. The learning goal of the project was the hardware side.
+- The firmware was **written by an AI assistant (Gemini)**, as described in the AI Usage Disclosure in the README. The learning goal of the project was the hardware and assembly side.
 
 ## Testing
 - Bench test of the electronics before assembly, including common-ground verification.

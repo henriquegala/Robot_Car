@@ -14,8 +14,25 @@ https://github.com/user-attachments/assets/e125297e-9ce1-4c44-8572-97c227e23245
 **Rover DETI 01** is an IoT exploration robot powered by an **Asynchronous ESP32 Microcontroller**.
 Unlike simple remote-controlled cars, this project focuses on **Low-Level Networking** and **Embedded Systems**. The robot hosts its own Web Server (HTTP), allowing control via any browser (Mobile/Desktop) over Wi-Fi, demonstrating the interaction between Hardware logic (C++) and Web interfaces.
 
-## 🎯 Project Focus & Development Notes
-This project's main learning goal was **hardware**: circuit design, soldering, wiring, and power delivery (voltage dividers, buck converters, motor drivers). The firmware was built to be **functional rather than a coding showcase**: I used AI assistance to speed up the C++/web server code so I could spend my time on the electronics and assembly side, which is where I wanted to build skill.
+## 🎯 Project Focus
+The main goal of this project was to **explore the hardware and assembly side** of embedded systems: choosing and wiring components, soldering, power delivery (voltage dividers, buck converters, motor drivers), mechanical design and building a working robot. The firmware was **not** the focus: it is functional rather than a coding showcase.
+
+## 🤖 AI Usage Disclosure
+An AI assistant (**Gemini**, by Google) was used throughout this project as a build aid. For full transparency:
+
+**What the AI did**
+- **Firmware:** the C/C++ firmware, including the embedded web server and the web control interface (HTML/CSS/JavaScript), was **written by Gemini**. I did not write this code myself.
+- **Parts list:** it helped me put together the shopping list (see [`docs/bom.md`](docs/bom.md)).
+- **Assembly:** it guided me through assembling the rover.
+- **Pin assignments:** it helped me decide which ESP32 pins to use for the motor driver and the sensor.
+
+**What I did**
+- Built the rover: assembly, soldering, wiring and the power system.
+- Designed the chassis in SolidWorks (V1 to V4).
+- Flashed the firmware and tested it on the real hardware, including the web interface and the obstacle avoidance.
+- Documented the project. The README, BOM and build notes were drafted with the help of Claude (Anthropic) and reviewed by me.
+
+Because the firmware is AI-generated, please treat it as a working reference for this hardware, not as a demonstration of my programming skills.
 
 ## ✨ Features
 - Self-hosted web server: the rover creates its own Wi-Fi access point, no router or internet needed.
