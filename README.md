@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen) ![Platform](https://img.shields.io/badge/Platform-ESP32-green) ![Stack](https://img.shields.io/badge/Stack-C%2B%2B%20%7C%20IoT-orange) ![License](https://img.shields.io/badge/License-MIT-blue)
 
-![Rover DETI 01](media/images/Diagonal_View.jpg)
+![Rover DETI 01](media/images/Diagonal_View.jpeg)
 
 > **Status: ✅ Complete.** All planned phases (firmware and electronics, networking and web server, automation and sensing) are built and verified on the finished rover: low-level motor control, a self-hosted web interface, real-time telemetry and autonomous obstacle avoidance. The final chassis is the 3D-printed **V4** design.
 
@@ -29,13 +29,13 @@ This project's main learning goal was **hardware**: circuit design, soldering, w
 
 | Front | Side | Top | Diagonal |
 |:---:|:---:|:---:|:---:|
-| ![Front view](media/images/Front_View.jpg) | ![Side view](media/images/Side_View.jpg) | ![Top view](media/images/Top_View.jpg) | ![Diagonal view](media/images/Diagonal_View.jpg) |
+| ![Front view](media/images/Front_View.jpeg) | ![Side view](media/images/Side_View.jpeg) | ![Top view](media/images/Top_View.jpeg) | ![Diagonal view](media/images/Diagonal_View.jpeg) |
 
 ### 📱 Web Control Interface
 The control panel runs on the rover itself and opens in any phone browser:
 
 <p align="center">
-  <img src="media/images/Mobile_Interface.jpg" alt="Mobile web control interface" width="300">
+  <img src="media/images/Mobile_Interface.jpeg" alt="Mobile web control interface" width="300">
 </p>
 
 ## 📁 Repository Structure
@@ -124,4 +124,4 @@ As part of my interest in **Cybersecurity**, future updates could focus on secur
 Released under the [MIT License](LICENSE).
 
 ---
-**Note:** This project is part of my personal portfolio as a Computer Engineering (LECI) student at the University of Aveiro (UA), Portugal. Active member of the NeRD core.
+**Note:** This project is part of my personal portfolio as a Computer Engineering (LECI) student at the University of Aveiro (UA), Portugal.
